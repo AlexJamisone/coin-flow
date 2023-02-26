@@ -1,5 +1,6 @@
-import type { NextPage } from "next";
+import type { NextPage, GetServerSidePropsContext } from "next";
 import Head from "next/head";
+import { getSession } from "next-auth/react";
 
 const Home: NextPage = () => {
 	return (
@@ -13,12 +14,11 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main>
-
-			</main>
-
+			<main></main>
 		</div>
 	);
 };
+
+
 
 export default Home;

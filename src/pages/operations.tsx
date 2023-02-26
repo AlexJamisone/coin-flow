@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 const Operations = (props: Props) => {
-  return (
-    <div>Operations</div>
-  )
-}
+	return <div>Operations</div>;
+};
 
-export default Operations
+export default Operations;

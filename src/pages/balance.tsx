@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import Income from "../components/Income/Income";
 
-type Props = {}
+const Balance = () => (
+	<Income/>
+)
 
-const Balance = (props: Props) => {
-  return (
-    <div>Balance</div>
-  )
-}
-
-export default Balance
+export default Balance;

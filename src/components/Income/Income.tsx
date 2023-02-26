@@ -1,11 +1,21 @@
-import React from 'react'
+import { Center, Button, Icon } from "@chakra-ui/react";
+import { IoIosAddCircleOutline } from "react-icons/io";
+const Income = () => {
+	const handleIncome = () => {
+		
+	}
+	return (
+		<Center>
+			<Button
+				onClick={() => handleIncome()}
+				w="100%"
+				leftIcon={<Icon as={IoIosAddCircleOutline} fontSize={25}/>}
+				m={5}
+			>
+				Новый счёт
+			</Button>
+		</Center>
+	);
+};
 
-type Props = {}
-
-const Income = (props: Props) => {
-  return (
-    <div>Income</div>
-  )
-}
-
-export default Income
+export default Income;

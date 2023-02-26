@@ -24,9 +24,9 @@ const Navigation = () => {
 	return (
 		<Center
 			as={motion.nav}
-            initial={{y: 100, opacity: 0}}
-            animate={{y: 0, opacity: 1}}
-            transitionDuration='1s'
+			initial={{ y: 100, opacity: 0 }}
+			animate={{ y: 0, opacity: 1 }}
+			transitionDuration="1s"
 			justifyContent="space-around"
 			h="100%"
 			backgroundColor="whiteAlpha.50"
