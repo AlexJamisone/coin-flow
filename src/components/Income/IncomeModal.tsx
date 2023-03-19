@@ -47,7 +47,7 @@ const IncomeModal = ({ isOpen, onClose }: IncomeModalProps) => {
 					</FormControl>
 					<Select>
 						{curr.map((value: string[]) => (
-							<option key={value[0]}>
+							<option key={value[0]} value={value[0]}>
 								{`${value[0]} - ${value[1]}`}
 							</option>
 						))}

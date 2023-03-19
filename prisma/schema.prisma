@@ -86,9 +86,10 @@ model OrderIncome {
 }
 
 model Income {
-    id     String        @id @default(cuid())
-    userId String
-    title  String
-    order  OrderIncome[]
-    User   User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+    id       String        @id @default(cuid())
+    userId   String
+    title    String
+    currency String
+    order    OrderIncome[]
+    User     User          @relation(fields: [userId], references: [id], onDelete: Cascade)
 }

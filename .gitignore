@@ -38,5 +38,5 @@ next-env.d.ts
 .env
 
 #nativ
-/ios
-/android
+# /ios
+# /android
